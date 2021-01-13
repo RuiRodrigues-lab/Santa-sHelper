@@ -1,0 +1,164 @@
+\hypertarget{class_e_a_1_1_irritante}{}\doxysection{EA.\+Irritante Class Reference}
+\label{class_e_a_1_1_irritante}\index{EA.Irritante@{EA.Irritante}}
+
+
+classe derivada da classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}}. Instancia criança irritante. crianças irritantes e às crianças insuportáveis, armazena-\/se o número de birras que a criança fez e a duração média de cada birra em minutos.  
+
+
+Inheritance diagram for EA.\+Irritante\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_e_a_1_1_irritante}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_e_a_1_1_irritante_abdb9074db36350dd569a3c552d3489a4}{Irritante}} (string nome, int idade, int num\+Birras, double media\+Das\+Birras)
+\item 
+\mbox{\hyperlink{class_e_a_1_1_irritante_aab8bd40b546e92c77cfe79df6318b6e3}{Irritante}} (string nome, int idade, int num\+Birras)
+\begin{DoxyCompactList}\small\item\em Construtor da classe irritante. Há overload com outros construtor. Inicializa os campos c\+\_\+plafond\+Presentes com valor distinto de classe mãe inicializa Número de Birras com valores obtidos a partir do código cliente´. Média de birras inicializado com valor definido no construtor. \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_e_a_1_1_irritante_a499039e0249d4c99be24c9c3989738eb}{Bem\+Comportada}} ()
+\begin{DoxyCompactList}\small\item\em Calcula se \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} é bem comportada.\+É override. Invoca base de classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} e considera campos específicos da classe derivada \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_e_a_1_1_irritante_a9f258dc8dc614f6c93706ab932c1226c}{Contemplada\+Com\+Noite\+Magica}} ()
+\begin{DoxyCompactList}\small\item\em Calcula se criança é ou não contemplada com Noite Magica. É override Se criança é contemplada com noite mágica recebe postal \char`\"{}\+Ho\+Ho\+Ho\char`\"{} e não prendas Invoca base de classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} e considera campos específicos da classe derivada \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_e_a_1_1_irritante_aa699878072a2fe5d0c88cfbb1af29f4f}{Numero\+Birras}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+double \mbox{\hyperlink{class_e_a_1_1_irritante_a38a4d92d0a7d55bda8ee0eefd8f155e9}{Media\+Birras}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_e_a_1_1_irritante_a050cf742247389df80507a477de18c6c}{ir\+\_\+numero\+Birras}}
+\item 
+double \mbox{\hyperlink{class_e_a_1_1_irritante_a65ea0e1817361180c8a4f643b41672dd}{ir\+\_\+media\+Birras}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+classe derivada da classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}}. Instancia criança irritante. crianças irritantes e às crianças insuportáveis, armazena-\/se o número de birras que a criança fez e a duração média de cada birra em minutos. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_e_a_1_1_irritante_abdb9074db36350dd569a3c552d3489a4}\label{class_e_a_1_1_irritante_abdb9074db36350dd569a3c552d3489a4}} 
+\index{EA.Irritante@{EA.Irritante}!Irritante@{Irritante}}
+\index{Irritante@{Irritante}!EA.Irritante@{EA.Irritante}}
+\doxysubsubsection{\texorpdfstring{Irritante()}{Irritante()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily EA.\+Irritante.\+Irritante (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{int}]{idade,  }\item[{int}]{num\+Birras,  }\item[{double}]{media\+Das\+Birras }\end{DoxyParamCaption})}
+
+
+
+
+
+Construtor da classe irritante. Há overload com outros construtor. Inicializa os campos c\+\_\+plafond\+Presentes com valor distinto de classe mãe inicializa campos específicos da classe com valores obtidos a partir do código cliente
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & string com informação sobre nome da criança. Herda da base classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} \\
+\hline
+{\em idade} & integer com informação sobre idade da criança. é validada pela Propriedade. Herda da Base classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}}\\
+\hline
+{\em num\+Birras} & integer com informação sobre número de birras. É validado pela Propriedade\\
+\hline
+{\em media\+Das\+Birras} & double com informação sobre duração média de birras. É validado pela Propriedade\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_e_a_1_1_irritante_aab8bd40b546e92c77cfe79df6318b6e3}\label{class_e_a_1_1_irritante_aab8bd40b546e92c77cfe79df6318b6e3}} 
+\index{EA.Irritante@{EA.Irritante}!Irritante@{Irritante}}
+\index{Irritante@{Irritante}!EA.Irritante@{EA.Irritante}}
+\doxysubsubsection{\texorpdfstring{Irritante()}{Irritante()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily EA.\+Irritante.\+Irritante (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{int}]{idade,  }\item[{int}]{num\+Birras }\end{DoxyParamCaption})}
+
+
+
+Construtor da classe irritante. Há overload com outros construtor. Inicializa os campos c\+\_\+plafond\+Presentes com valor distinto de classe mãe inicializa Número de Birras com valores obtidos a partir do código cliente´. Média de birras inicializado com valor definido no construtor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & string com informação sobre nome da criança. Herda da base classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} \\
+\hline
+{\em idade} & integer com informação sobre idade da criança. É validada pela Propriedade. Herda da Base classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}}\\
+\hline
+{\em num\+Birras} & integer com informação sobre número de birras. É validado pela Propriedade\\
+\hline
+\end{DoxyParams}
+/// \begin{DoxyReturn}{Returns}
+Um objeto da classe \mbox{\hyperlink{class_e_a_1_1_irritante}{Irritante}} instanciado. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_e_a_1_1_irritante_a499039e0249d4c99be24c9c3989738eb}\label{class_e_a_1_1_irritante_a499039e0249d4c99be24c9c3989738eb}} 
+\index{EA.Irritante@{EA.Irritante}!BemComportada@{BemComportada}}
+\index{BemComportada@{BemComportada}!EA.Irritante@{EA.Irritante}}
+\doxysubsubsection{\texorpdfstring{BemComportada()}{BemComportada()}}
+{\footnotesize\ttfamily override bool EA.\+Irritante.\+Bem\+Comportada (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Calcula se \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} é bem comportada.\+É override. Invoca base de classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} e considera campos específicos da classe derivada 
+
+\begin{DoxyReturn}{Returns}
+Devolve se criança é (true) ou não(false) bem comportada. (Valor Booleano) 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_e_a_1_1_crianca_a104eeb1d80aa5c6e55454f0213e5ceeb}{EA.\+Crianca}}.
+
+\mbox{\Hypertarget{class_e_a_1_1_irritante_a9f258dc8dc614f6c93706ab932c1226c}\label{class_e_a_1_1_irritante_a9f258dc8dc614f6c93706ab932c1226c}} 
+\index{EA.Irritante@{EA.Irritante}!ContempladaComNoiteMagica@{ContempladaComNoiteMagica}}
+\index{ContempladaComNoiteMagica@{ContempladaComNoiteMagica}!EA.Irritante@{EA.Irritante}}
+\doxysubsubsection{\texorpdfstring{ContempladaComNoiteMagica()}{ContempladaComNoiteMagica()}}
+{\footnotesize\ttfamily override bool EA.\+Irritante.\+Contemplada\+Com\+Noite\+Magica (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Calcula se criança é ou não contemplada com Noite Magica. É override Se criança é contemplada com noite mágica recebe postal \char`\"{}\+Ho\+Ho\+Ho\char`\"{} e não prendas Invoca base de classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} e considera campos específicos da classe derivada 
+
+\begin{DoxyReturn}{Returns}
+Devolve se crianca irritante é (true) ou não (false) contemplada com noite mágica. (Valor booleano).
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_e_a_1_1_crianca_ae12f10ef1692c5131857164dd87cf172}{EA.\+Crianca}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_e_a_1_1_irritante_a65ea0e1817361180c8a4f643b41672dd}\label{class_e_a_1_1_irritante_a65ea0e1817361180c8a4f643b41672dd}} 
+\index{EA.Irritante@{EA.Irritante}!ir\_mediaBirras@{ir\_mediaBirras}}
+\index{ir\_mediaBirras@{ir\_mediaBirras}!EA.Irritante@{EA.Irritante}}
+\doxysubsubsection{\texorpdfstring{ir\_mediaBirras}{ir\_mediaBirras}}
+{\footnotesize\ttfamily double EA.\+Irritante.\+ir\+\_\+media\+Birras\hspace{0.3cm}{\ttfamily [private]}}
+
+double que guarda duração média das birras da criança. \mbox{\Hypertarget{class_e_a_1_1_irritante_a050cf742247389df80507a477de18c6c}\label{class_e_a_1_1_irritante_a050cf742247389df80507a477de18c6c}} 
+\index{EA.Irritante@{EA.Irritante}!ir\_numeroBirras@{ir\_numeroBirras}}
+\index{ir\_numeroBirras@{ir\_numeroBirras}!EA.Irritante@{EA.Irritante}}
+\doxysubsubsection{\texorpdfstring{ir\_numeroBirras}{ir\_numeroBirras}}
+{\footnotesize\ttfamily int EA.\+Irritante.\+ir\+\_\+numero\+Birras\hspace{0.3cm}{\ttfamily [private]}}
+
+integer que guarda número de birras da criança. 
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_e_a_1_1_irritante_a38a4d92d0a7d55bda8ee0eefd8f155e9}\label{class_e_a_1_1_irritante_a38a4d92d0a7d55bda8ee0eefd8f155e9}} 
+\index{EA.Irritante@{EA.Irritante}!MediaBirras@{MediaBirras}}
+\index{MediaBirras@{MediaBirras}!EA.Irritante@{EA.Irritante}}
+\doxysubsubsection{\texorpdfstring{MediaBirras}{MediaBirras}}
+{\footnotesize\ttfamily double EA.\+Irritante.\+Media\+Birras\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+Propriedade do campo ir\+\_\+media\+Birras Permite receber valores a partir de código cliente e valida a duração média de birras introduzida $>$=0 \mbox{\Hypertarget{class_e_a_1_1_irritante_aa699878072a2fe5d0c88cfbb1af29f4f}\label{class_e_a_1_1_irritante_aa699878072a2fe5d0c88cfbb1af29f4f}} 
+\index{EA.Irritante@{EA.Irritante}!NumeroBirras@{NumeroBirras}}
+\index{NumeroBirras@{NumeroBirras}!EA.Irritante@{EA.Irritante}}
+\doxysubsubsection{\texorpdfstring{NumeroBirras}{NumeroBirras}}
+{\footnotesize\ttfamily int EA.\+Irritante.\+Numero\+Birras\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+Propriedade do campo ir\+\_\+numero\+Birras Permite receber valores a partir de código cliente e valida o número de birras introduzido $>$=0 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/stduser/\+One\+Drive -\/ Instituto Politécnico de Setúbal/\+DAW/\+TRABALHO/\+DAW-\/projeto/\+EA/\+EA/Irritante.\+cs\end{DoxyCompactItemize}

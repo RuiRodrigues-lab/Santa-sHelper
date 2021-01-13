@@ -1,0 +1,149 @@
+\hypertarget{class_e_a_1_1_insuportavel}{}\doxysection{EA.\+Insuportavel Class Reference}
+\label{class_e_a_1_1_insuportavel}\index{EA.Insuportavel@{EA.Insuportavel}}
+
+
+classe derivada da classe \mbox{\hyperlink{class_e_a_1_1_irritante}{Irritante}}. Instancia criança insuportavel. Para as crianças insuportáveis armazena-\/se ainda, para além de propriedades de crianca e irritantes, se a criança diz palavrões.  
+
+
+Inheritance diagram for EA.\+Insuportavel\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_e_a_1_1_insuportavel}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_e_a_1_1_insuportavel_a0267c024875ccbca72d5e5b92ce2fcc1}{Insuportavel}} (string nome, int idade, int num\+Birras, double media\+Das\+Birras)
+\begin{DoxyCompactList}\small\item\em /// Construtor da classe irritante. Há overload com outros construtor. Inicializa os campos c\+\_\+plafond\+Presentes com valor distinto de classe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} inicializa campo específico da classe com valor obtido a partir do código cliente \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_e_a_1_1_insuportavel_a7d1730367389007da0fe288eab2c9660}{Insuportavel}} (string nome, int idade, int num\+Birras)
+\begin{DoxyCompactList}\small\item\em Construtor da classe insuportável. Há overload com outros construtor. Inicializa os campos c\+\_\+plafond\+Presentes com valor distinto de classe mãe inicializa Número de Birras com valores obtidos a partir do código cliente´. Média de birras inicializado com valor definido no construtor. \end{DoxyCompactList}\item 
+override double \mbox{\hyperlink{class_e_a_1_1_insuportavel_a1f738afebbf80f183d4dc2ee2e3ed030}{Plafond\+Efectivo}} ()
+\begin{DoxyCompactList}\small\item\em Calcula o plafond efetivo a que a criança tem direito considerando a taxa obrigatória decorrente da despesa com renas, taxa opcional referente ao serviço expresso e idade da crianca. É override pois é distinto da classe mãe \end{DoxyCompactList}\item 
+override bool \mbox{\hyperlink{class_e_a_1_1_insuportavel_a5203808ae89322d59b4f195783232519}{Contemplada\+Com\+Noite\+Magica}} ()
+\begin{DoxyCompactList}\small\item\em Calcula se criança é ou não contemplada com Noite Magica. É override Se criança é contemplada com noite mágica recebe postal \char`\"{}\+Ho\+Ho\+Ho\char`\"{} e não prendas \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_e_a_1_1_insuportavel_ab4daebfc382d589f288f78c2273aa4f0}{Palavroes}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_e_a_1_1_insuportavel_af40046c1511751cabc4f3dc47d34d90d}{in\+\_\+palavroes}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+classe derivada da classe \mbox{\hyperlink{class_e_a_1_1_irritante}{Irritante}}. Instancia criança insuportavel. Para as crianças insuportáveis armazena-\/se ainda, para além de propriedades de crianca e irritantes, se a criança diz palavrões. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_e_a_1_1_insuportavel_a0267c024875ccbca72d5e5b92ce2fcc1}\label{class_e_a_1_1_insuportavel_a0267c024875ccbca72d5e5b92ce2fcc1}} 
+\index{EA.Insuportavel@{EA.Insuportavel}!Insuportavel@{Insuportavel}}
+\index{Insuportavel@{Insuportavel}!EA.Insuportavel@{EA.Insuportavel}}
+\doxysubsubsection{\texorpdfstring{Insuportavel()}{Insuportavel()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily EA.\+Insuportavel.\+Insuportavel (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{int}]{idade,  }\item[{int}]{num\+Birras,  }\item[{double}]{media\+Das\+Birras }\end{DoxyParamCaption})}
+
+
+
+/// Construtor da classe irritante. Há overload com outros construtor. Inicializa os campos c\+\_\+plafond\+Presentes com valor distinto de classe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} inicializa campo específico da classe com valor obtido a partir do código cliente 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & string com informação sobre nome da criança. Herda da base classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} \\
+\hline
+{\em idade} & integer com informação sobre idade da criança. é validada pela Propriedade. Herda da Base classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}}\\
+\hline
+{\em num\+Birras} & integer com informação sobre número de birras. É validado pela Propriedade. Herda da base classe mãe irritante\\
+\hline
+{\em media\+Das\+Birras} & double com informação sobre duração média de birras. É validado pela Propriedade. Herda da base classe mãe irritante\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Um objeto da classe \mbox{\hyperlink{class_e_a_1_1_insuportavel}{Insuportavel}} instanciado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_e_a_1_1_insuportavel_a7d1730367389007da0fe288eab2c9660}\label{class_e_a_1_1_insuportavel_a7d1730367389007da0fe288eab2c9660}} 
+\index{EA.Insuportavel@{EA.Insuportavel}!Insuportavel@{Insuportavel}}
+\index{Insuportavel@{Insuportavel}!EA.Insuportavel@{EA.Insuportavel}}
+\doxysubsubsection{\texorpdfstring{Insuportavel()}{Insuportavel()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily EA.\+Insuportavel.\+Insuportavel (\begin{DoxyParamCaption}\item[{string}]{nome,  }\item[{int}]{idade,  }\item[{int}]{num\+Birras }\end{DoxyParamCaption})}
+
+
+
+Construtor da classe insuportável. Há overload com outros construtor. Inicializa os campos c\+\_\+plafond\+Presentes com valor distinto de classe mãe inicializa Número de Birras com valores obtidos a partir do código cliente´. Média de birras inicializado com valor definido no construtor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nome} & string com informação sobre nome da criança. Herda da base classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}} \\
+\hline
+{\em idade} & integer com informação sobre idade da criança. É validada pela Propriedade. Herda da Base classe mãe \mbox{\hyperlink{class_e_a_1_1_crianca}{Crianca}}\\
+\hline
+{\em num\+Birras} & integer com informação sobre número de birras. É validado pela Propriedade.\+erda da base classe mãe irritante\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Um objeto da classe \mbox{\hyperlink{class_e_a_1_1_insuportavel}{Insuportavel}} instanciado. 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_e_a_1_1_insuportavel_a5203808ae89322d59b4f195783232519}\label{class_e_a_1_1_insuportavel_a5203808ae89322d59b4f195783232519}} 
+\index{EA.Insuportavel@{EA.Insuportavel}!ContempladaComNoiteMagica@{ContempladaComNoiteMagica}}
+\index{ContempladaComNoiteMagica@{ContempladaComNoiteMagica}!EA.Insuportavel@{EA.Insuportavel}}
+\doxysubsubsection{\texorpdfstring{ContempladaComNoiteMagica()}{ContempladaComNoiteMagica()}}
+{\footnotesize\ttfamily override bool EA.\+Insuportavel.\+Contemplada\+Com\+Noite\+Magica (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Calcula se criança é ou não contemplada com Noite Magica. É override Se criança é contemplada com noite mágica recebe postal \char`\"{}\+Ho\+Ho\+Ho\char`\"{} e não prendas 
+
+\begin{DoxyReturn}{Returns}
+Devolve se crianca irritante é ou não contemplada com noite mágica. Valor booleano.
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_e_a_1_1_crianca_ae12f10ef1692c5131857164dd87cf172}{EA.\+Crianca}}.
+
+\mbox{\Hypertarget{class_e_a_1_1_insuportavel_a1f738afebbf80f183d4dc2ee2e3ed030}\label{class_e_a_1_1_insuportavel_a1f738afebbf80f183d4dc2ee2e3ed030}} 
+\index{EA.Insuportavel@{EA.Insuportavel}!PlafondEfectivo@{PlafondEfectivo}}
+\index{PlafondEfectivo@{PlafondEfectivo}!EA.Insuportavel@{EA.Insuportavel}}
+\doxysubsubsection{\texorpdfstring{PlafondEfectivo()}{PlafondEfectivo()}}
+{\footnotesize\ttfamily override double EA.\+Insuportavel.\+Plafond\+Efectivo (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Calcula o plafond efetivo a que a criança tem direito considerando a taxa obrigatória decorrente da despesa com renas, taxa opcional referente ao serviço expresso e idade da crianca. É override pois é distinto da classe mãe 
+
+\begin{DoxyReturn}{Returns}
+Devolve o valor (double) de plafond efectivo a que as crianças têm direito 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_e_a_1_1_crianca_a15e01edf743e874d513a69199a1f6c61}{EA.\+Crianca}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_e_a_1_1_insuportavel_af40046c1511751cabc4f3dc47d34d90d}\label{class_e_a_1_1_insuportavel_af40046c1511751cabc4f3dc47d34d90d}} 
+\index{EA.Insuportavel@{EA.Insuportavel}!in\_palavroes@{in\_palavroes}}
+\index{in\_palavroes@{in\_palavroes}!EA.Insuportavel@{EA.Insuportavel}}
+\doxysubsubsection{\texorpdfstring{in\_palavroes}{in\_palavroes}}
+{\footnotesize\ttfamily bool EA.\+Insuportavel.\+in\+\_\+palavroes\hspace{0.3cm}{\ttfamily [private]}}
+
+booleano que guarda se criança diz ou não palavrões 
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_e_a_1_1_insuportavel_ab4daebfc382d589f288f78c2273aa4f0}\label{class_e_a_1_1_insuportavel_ab4daebfc382d589f288f78c2273aa4f0}} 
+\index{EA.Insuportavel@{EA.Insuportavel}!Palavroes@{Palavroes}}
+\index{Palavroes@{Palavroes}!EA.Insuportavel@{EA.Insuportavel}}
+\doxysubsubsection{\texorpdfstring{Palavroes}{Palavroes}}
+{\footnotesize\ttfamily bool EA.\+Insuportavel.\+Palavroes\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+Propriedade do campo in\+\_\+palavroes Permite receber valores a partir de código cliente 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/stduser/\+One\+Drive -\/ Instituto Politécnico de Setúbal/\+DAW/\+TRABALHO/\+DAW-\/projeto/\+EA/\+EA/Insuportavel.\+cs\end{DoxyCompactItemize}
